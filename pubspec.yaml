@@ -1,0 +1,15 @@
+name: photobravo
+description: PhotoBravo - Registro fotográfico operacional
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  share_plus: ^7.2.1
+
+flutter:
+  uses-material-design: true

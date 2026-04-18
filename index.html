@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PhotoBravo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#020617">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <h1>PhotoBravo</h1>
+  <p class="assinatura">Developed by 244707 J. Alves</p>
+</div>
+
+<h1>PhotoBravo</h1>
+
+<div class="form-card">
+
+  <input type="file" id="foto" accept="image/*">
+
+  <select id="tipoPolicia">
+    <option value="pm">Polícia Militar</option>
+    <option value="forca">Força Tática</option>
+  </select>
+
+  <input type="text" id="buscaBatalhao" placeholder="Buscar batalhão...">
+
+  <select id="selectBatalhao">
+    <option value="">Selecionar batalhão</option>
+  </select>
+
+  <select id="cia">
+    <option value="">CIA / Unidade</option>
+    <option>1ª CIA</option>
+    <option>2ª CIA</option>
+    <option>3ª CIA</option>
+    <option>4ª CIA</option>
+    <option>5ª CIA</option>
+    <option>6ª CIA</option>
+    <option>Força Tática</option>
+    <option>ROCAM</option>
+    <option>CFP</option>
+    <option>CGP</option>
+  </select>
+
+  <select id="pelotao">
+    <option value="">Pelotão</option>
+    <option>Alpha</option>
+    <option>Bravo</option>
+    <option>Charlie</option>
+    <option>Delta</option>
+    <option>1º Pelotão</option>
+    <option>2º Pelotão</option>
+    <option>3º Pelotão</option>
+    <option>4º Pelotão</option>
+    <option>5º Pelotão</option>
+    <option>6º Pelotão</option>
+  </select>
+
+  <input id="nome" placeholder="Nome Completo">
+  <input id="rg" placeholder="RG">
+  <input id="nascimento" placeholder="Nascimento">
+  <input id="ocorrencia" placeholder="Ocorrência">
+  <input id="local" placeholder="Local">
+  <input id="viatura" placeholder="Viatura">
+  <input id="bopm" placeholder="BOPM">
+  <input id="bopc" placeholder="BOPC">
+  <input id="data" placeholder="Data">
+
+  <button onclick="gerarFicha()">Gerar Ficha</button>
+
+</div>
+
+<canvas id="canvas"></canvas>
+
+<div id="acoes" hidden>
+  <button onclick="baixar()">Baixar Imagem</button>
+  <button onclick="compartilhar()">Compartilhar</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
