@@ -28,6 +28,11 @@ const batalhoes = [
   { nome: "18º BPM/I", imagem: "assets/18bpmi.png" },
   { nome: "27º BPM/M", imagem: "assets/27bpmm.png" },
   { nome: "31º BPM/I", imagem: "assets/31bpmi.png" },
+
+  // 🔥 NOVO BATALHÃO (ADICIONADO)
+  { nome: "32º BPM/I", imagem: "assets/32bpmi.png" },
+  { nome: "29º BPM/I", imagem: "assets/29bpmi.png"},
+  { nome: "28º BPM/M", imagem: "assets/28bpmm.png"},
   { nome: "34º BPM/I", imagem: "assets/34bpmi.png" },
   { nome: "35º BPM/I", imagem: "assets/35bpmi.png" },
   { nome: "37º BPM/M", imagem: "assets/37bpmm.png" },
@@ -134,7 +139,7 @@ function gerarFicha() {
 
     const tamanhoBrasao = 188;
     const offsetTopo = boxY + 104;
-    const margemLateral = 60;
+    const margemLateral = 35;
 
     brasao1.onload = () => {
       ctx.drawImage(brasao1, boxX + margemLateral, offsetTopo, tamanhoBrasao, tamanhoBrasao);

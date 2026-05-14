@@ -1,4 +1,4 @@
-const CACHE_NAME = "photobravo-v2";
+const CACHE_NAME = "photobravo-v4";
 
 const urlsToCache = [
   "/",
@@ -24,7 +24,9 @@ const urlsToCache = [
   "/assets/35bpmi.png",
   "/assets/37bpmm.png",
   "/assets/38bpmm.png",
-  "/assets/47bpmi.png"
+  "/assets/47bpmi.png",
+  "/assets/29bpmi.png",
+  "/assets/28bpmm.png"
 ];
 
 // ===== INSTALAÇÃO =====
