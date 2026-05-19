@@ -1,16 +1,56 @@
-# photobravo
+# 📸 PhotoBravo
 
-A new Flutter project.
+Aplicativo web (PWA) desenvolvido para auxiliar na geração de fichas fotográficas padronizadas diretamente pelo celular.
 
-## Getting Started
+O sistema funciona como aplicativo instalável e possui suporte offline, permitindo uso operacional em campo.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+# 🚀 Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📷 Captura de imagem pela câmera
+- 🖼️ Seleção de imagem pela galeria
+- 🧾 Geração automática de ficha fotográfica
+- 🎖️ Seleção dinâmica de batalhões
+- 🛡️ Alternância entre PMESP e Força Tática
+- 📤 Compartilhamento direto
+- ⬇️ Download em PNG
+- 📱 Compatível com Android, iPhone e Desktop
+- 🌐 PWA instalável
+- 🔌 Funcionamento offline
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+# 🧠 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- Canvas API
+- Service Worker
+- Progressive Web App (PWA)
+
+---
+
+# 📲 Instalação
+
+## Android
+1. Abrir o site no Chrome
+2. Selecionar "Adicionar à tela inicial"
+
+## iPhone
+1. Abrir o site no Safari
+2. Compartilhar
+3. "Adicionar à Tela de Início"
+
+---
+
+# 🌐 Deploy
+
+Hospedado via Netlify.
+
+---
+
+# 👨‍💻 Desenvolvedor
+
+Developed by 244707 J. Alves
